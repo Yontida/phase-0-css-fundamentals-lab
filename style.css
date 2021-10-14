@@ -1,5 +1,34 @@
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin-left: 0;
+}
+
+header {
+  text-align: center;
+}
+
+nav > a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: grey;
+}
+
+#featured-property {
+  text-align: center;
+  font-size: small;
+}
+
+section > p {
+  text-align: center;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#details > div {
+  background-color: red;
+  float: left;
+  text-align: center;
+  width: 25%;
 }
